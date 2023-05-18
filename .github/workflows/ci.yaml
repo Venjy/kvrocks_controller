@@ -21,9 +21,11 @@ on:
   push:
     branches:
       - unstable
+      - ui-test-ci-2
   pull_request:
     branches:
       - unstable
+      - ui-test-ci
 
 jobs:
   lint-build-test:
